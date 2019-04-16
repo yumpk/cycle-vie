@@ -31,7 +31,7 @@ class Form extends React.Component{
         return(
             
             <div>
-            <h1>{this.state.title}</h1>
+            <h1>{this.state.globalTitle}</h1>
             <form onSubmit={this.handleSubmit}>
                 
                 <label htmlFor="title">
